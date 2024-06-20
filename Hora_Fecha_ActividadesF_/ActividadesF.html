@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Historia de usuario: US - 09 Hora y Fecha para Actividades Familiares</title>
+    <style>        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#50D7C9;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Historia de usuario: US - 09 Hora y Fecha para Actividades Familiares</h1>
+
+        <form>
+            <p>Calendario:</p>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+
+            <p>Hora:</p>
+            <input type="time" id="hora" name="hora">
+            <br>
+
+            <p>Descripcion de la Actividad:</p>
+            <textarea id="descripcion" rows="4" cols="50" placeholder="Escribe la descripcion de la actividad familiar..."></textarea>
+            <br>
+
+            <p>Juegos:</p>
+            <select id="juegos" name="juegos">
+                <option value="ninguno">Ninguno</option>
+                <option value="ajedrez">Ajedrez</option>
+                <option value="pictionary">Pictionary</option>
+                <option value="monopoly">Monopoly</option>
+                <option value="otros">Otros</option>
+            </select>
+            <br>
+            <input type="submit" value="Guardar">
+        </form>
+    </center>
+</body>
+</html>

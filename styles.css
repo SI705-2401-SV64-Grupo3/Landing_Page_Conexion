@@ -1,0 +1,45 @@
+.logo{
+    height: 150;
+    width: 150;
+   }
+
+.slide{
+    
+    position: absolute; 
+    height: 100px; 
+    width: 2000px;
+    background-color:61C0BF;
+}
+
+.titulo{
+    top: 150;
+    position: absolute;
+
+}
+
+.white-color{
+    position: absolute;
+    color:aliceblue;
+    left: 70;
+    top: -10;
+    font-size: 20px;
+}
+.common-text{
+    position: absolute;
+    top: 180;
+    left: 40px;
+}
+.picture{
+    float: right;
+    padding: 20px;
+}
+.integrantes{
+    position: absolute;
+    top: 700;
+    left: 50;
+}
+.integrantes-nombre{
+    position: absolute;
+    left: 100;
+    top: 900;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historia de Usuario: US02 - Notificación sobre eventos importantes</title>
+    <!-- Enlace a la biblioteca flatpickr -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <style>
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .edit-container {
+            margin-top: 20px;
+        }
+
+        .calendar-button {
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .suggestions-container {
+            margin-top: 20px;
+        }
+
+        .improvement-options {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Historia de Usuario: US02 - Notificación sobre eventos importantes</h1>
+        <div class="edit-container">
+            <p>¿Recibió correctamente la notificación del evento?</p>
+            <!-- Campo de texto para editar el mensaje -->
+            <input type="text" id="editMessage" placeholder="Editar mensaje">
+            <!-- Botón para abrir el calendario -->
+            <button id="calendarButton" class="calendar-button">Calendario</button>
+            <!-- Campo de entrada de fecha con flatpickr -->
+            <input type="text" id="eventDate" placeholder="Fecha del evento" data-input>
+            <!-- Título "Descripción del evento" -->
+            <p>Descripción del evento</p>
+            <!-- Cuadro de texto para ingresar la descripción del evento -->
+            <textarea id="eventDescription" rows="4" cols="50" placeholder="Ingrese la descripción del evento"></textarea>
+        </div>
+    </div>

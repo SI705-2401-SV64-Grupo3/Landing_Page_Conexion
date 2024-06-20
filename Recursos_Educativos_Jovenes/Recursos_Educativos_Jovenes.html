@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+        body {
+            background-color: #50D7C9;
+        }
+        .container {
+
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box; 
+        }
+
+        .container2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            padding: 0 100px;
+        }
+        .image-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            padding: 20px;
+            max-width: 400px;
+        }
+        .image-box img {
+         max-width: 60%;
+            height: 100px;
+        }
+
+        .image-description {
+            width: 50%;
+            padding-left: 75px;
+        }
+        
+        label {
+        display: list-item;
+        margin-top: 20px;
+        }
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+        }
+
+    </style>
+    <title>Recursos educativos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Busqueda de recursos educativos</h1>
+        <form action>
+            <label for="fname">Nombre de libro</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="Opcion">Filtros</label>
+            <select id="Opcion" name="Opcion">
+                <option value="Autoayuda" style="font-family: cursive;">Elija opcion</option>
+                <option value="Autoayuda">Ayuda psicologica</option>
+                <option value="Mejora personal">Mejora personal fisica</option>
+                <option value="Para jovenes">Relacionado a Jovenes</option>
+                <option value="Para adultos">Relacionado a adultos</option>
+            </select>
+            <br>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+    <br>
+    <div class="container"><h2> Libros populares</h2></div>
+    
+    <br>
+    <div class="container2">
+        <div class="image-box">
+           <img src="Fotos/Libro_1.jpg" alt="Descripción de la imagen">
+           <div class="image-description">
+             <h3>El libro que tu cerebro no quiere que leas</h3>
+             <p>"El libro que tu cerebro no quiere leer" de David A. Levy ofrece estrategias para vencer la procrastinación. A través de la exploración de la psicología detrás de posponer tareas, proporciona consejos prácticos respaldados por la ciencia para mejorar la productividad y superar la evasión de actividades desafiantes.</p>
+           </div>
+        </div>
+    </div>
+<br>
+    <div class="container2" style="height: 350px;">
+        <div class="image-box">
+           <img src="Fotos/Libro_2.png" alt="Descripción de la imagen">
+           <div class="image-description">
+             <h3>Tus zonas erroneas</h3>
+             <p>"Tus zonas erróneas" es un libro de autoayuda escrito por Wayne W. Dyer. Ofrece consejos prácticos para superar hábitos negativos, gestionar el estrés y mejorar la autoestima. Mediante reflexiones y estrategias, Dyer ayuda a identificar y cambiar patrones de pensamiento para alcanzar la realización personal</p>
+           </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
